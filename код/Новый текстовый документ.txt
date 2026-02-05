@@ -1,0 +1,14 @@
+Chromech5
+
+ssh pi@10.42.0.1
+pi
+
+./start_server.sh
+
+sudo fuser -k 8000/tcp
+
+pip install opencv-contrib-python
+
+
+pip install requests
+
